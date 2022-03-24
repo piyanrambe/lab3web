@@ -1,6 +1,6 @@
 # lab3web
 ### Disini saya akan menjelaskan langkah langkah Praktikum ke 3
-=========================================================================================================
+============================================================================================
 
 # A. Membuat LIST di HTML
 ### 1. Ordered List
@@ -51,6 +51,9 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
     </section>
 ```
 ![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
+
+============================================================================================
+============================================================================================
 
 # B. Membuat Tabel dan menggabungkan Sel data di HTML
 Disini saya akan menjelaskan cara membuat Tabel.
