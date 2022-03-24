@@ -151,5 +151,7 @@ dan dibawah ini adalah code untuk penggabungan Cell Data :
 ============================================================================================
 
 # C. Membuat Form 
+cara membuat Form harus menggunakan tag `<form></form>`, karena tag ini akan membungkus element input yang ada dialamanya dan juga berfungsi mengirim data ke server.
+contoh element yang berada di dalam tag tersebut adalah element `<textfield>`
 
 
