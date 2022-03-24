@@ -51,7 +51,6 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
     </section>
 ```
 ![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
-
 ============================================================================================
 ============================================================================================
 
