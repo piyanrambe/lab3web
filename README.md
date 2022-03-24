@@ -152,6 +152,125 @@ dan dibawah ini adalah code untuk penggabungan Cell Data :
 
 # C. Membuat Form 
 cara membuat Form harus menggunakan tag `<form></form>`, karena tag ini akan membungkus element input yang ada dialamanya dan juga berfungsi mengirim data ke server.
-contoh element yang berada di dalam tag tersebut adalah element `<textfield>`
+contoh element yang berada di dalam tag tersebut adalah :
+- `<textfield>`
+- `<password>`
+- `<checkbox>`
+- `<Radio>`
+- `dll`
+
+Dibawah ini adalah code pembuatan Form sesuai praktikum 3 : 
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lanjutan</title>
+  </head>
+  <body>
+    <!-- Membuat Form -->
+    <h1>Membuat Form</h1>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Data Pelanggan</legend>
+        <div>
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" />
+        </div>
+        <div>
+          <label for="alamat">Alamat</label>
+          <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        </div>
+        <!-- membuat label input radio -->
+        <div>
+          <label>Jenis Kelamin</label>
+          <input id="jk_l" type="radio" name="kelamin" value="L" />
+          <label for="jk_l"> Laki-laki </label>
+          <input id="jk_p" type="radio" name="kelamin" value="P" />
+          <label for="jk_p"> Perempuan </label>
+        </div>
+        <div><input type="submit" value="Login" /></div>
+       </fieldset>
+    </form>
+  </body>
+</html>
+```
+![6 membuat Form](https://user-images.githubusercontent.com/101393632/159877811-46fee145-f81b-41d7-8b11-4548f51c0086.jpg)
+
+### menambah Style Pada Form
+agar tampilan lebih menarik, kita akan tambahkan seditik style di form ini. untuk element `<style>`, kita akan taruh di antara tag `<head>` dan `</head>`
+berikut codenya :
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lanjutan</title>
+
+    <!-- Menambah Style -->
+    <style>
+      form div {
+        margin: 0.8rem 0rem;
+      }
+      form div > label {
+        display: inline-block;
+        width: 100px;
+      }
+      form input[type="text"],
+      form textarea {
+        border: 1px solid #197a43;
+      }
+      form input[type="submit"] {
+        border: 1px solid #197a43;
+        background-color: #197a43;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+      }
+      select {
+        border: 1px solid #197a43;
+        
+      }
+    </style>
+  </head>
+```
+![7 menambah Style pada form](https://user-images.githubusercontent.com/101393632/159878346-4fe5cffa-2038-4bc8-9229-01733292fab9.jpg)
+============================================================================================
+
+# Pertanyaan dan tugas
+## Buatlah form yang menampilkan **dropdown** menu dan **listbox** dengan multiple selection.
+
+Disini saya menambahkan elemen `<option>` untuk menu **Dropdown**, Berikut Code nya :
+```
+<div>
+          <label for="Asal kota">Asal Kota</label>
+          <select>
+            <option selected>--pilih kota asal--</option>
+            <option>Cikarang</option>
+            <option>Jakarta</option>
+            <option>Karawang</option>
+            <option>Bekasi</option>
+            <option>Subang</option>
+          </select>
+</div>
+```
+Dan dibawah ini akan saya tampilkan **listbox** multiple selection.
+
+disini saya menggunakan element `<input type="Checkbox">`, berikut codenya :
+```
+ <div>
+          <label for="Hobi">Pilih Hobi</label>
+          <input type="checkbox" name="Hobi" value="Olahraga"><label>Olahraga</label>
+          <input type="checkbox" name="Hobi" value="Membaca"><label>Membaca</label>
+          <input type="checkbox" name="Hobi" value="Memancing"><label>Memancing</label>
+          <input type="checkbox" name="Hobi" value="Musik"><label>Musik</label>
+ </div>
+```
+======================================SELESAI===============================================
+
 
 
