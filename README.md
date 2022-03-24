@@ -111,8 +111,39 @@ berikut adalah hasil dari membuat tabel beserta code nya :
 ada dua atribut dalam element `<table>` yaitu : 
 - `colspan` berguna untuk menggabungkan beberapa cell dalam satu baris
 - `rowspan` berguna untuk menggabungkan beberapa cell dalam satu kolom
+
 Cara menggunakannya yaitu `<td rowspan="3">Teknik</td>`
 
+dan dibawah ini adalah code untuk penggabungan Cell Data : 
+```
+<table border="1" cellpadding="6" cellspacing="0">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Fakultas</th>
+          <th>Program Studi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td rowspan="3">Teknik</td>
+          <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Teknik Industri</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Teknik Lingkungan</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+```
+![5 menggabungkan sel data](https://user-images.githubusercontent.com/101393632/159870992-c8138457-d2b7-4313-93aa-e43ff9b9d430.jpg)
 
 
 
