@@ -4,7 +4,7 @@
 ### 1. Membuat LIST pada HTML
 ### 2. Membuat TABLE pada HTML
 ### 3. Membuat FORM pada HTML
-============================================================================================
+===========================================================================
 
 # A. Membuat LIST di HTML
 ### 1. Ordered List
@@ -55,7 +55,7 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
     </section>
 ```
 ![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
-============================================================================================
+===========================================================================
 
 # B. Membuat Tabel dan menggabungkan Sel data di HTML
 Disini saya akan menjelaskan cara membuat Tabel.
@@ -148,7 +148,7 @@ dan dibawah ini adalah code untuk penggabungan Cell Data :
 </html>
 ```
 ![5 menggabungkan sel data](https://user-images.githubusercontent.com/101393632/159870992-c8138457-d2b7-4313-93aa-e43ff9b9d430.jpg)
-============================================================================================
+===========================================================================
 
 # C. Membuat Form 
 cara membuat Form harus menggunakan tag `<form></form>`, karena tag ini akan membungkus element input yang ada dialamanya dan juga berfungsi mengirim data ke server.
@@ -239,7 +239,7 @@ berikut codenya :
   </head>
 ```
 ![7 menambah Style pada form](https://user-images.githubusercontent.com/101393632/159878346-4fe5cffa-2038-4bc8-9229-01733292fab9.jpg)
-============================================================================================
+===========================================================================
 
 # Pertanyaan dan tugas
 ## Buatlah form yang menampilkan **dropdown** menu dan **listbox** dengan multiple selection.
@@ -274,7 +274,6 @@ Berikut Hasilnya
 ![8 menambah dropdown dan listbox](https://user-images.githubusercontent.com/101393632/159879748-51144fff-27d2-4790-be49-c0297d7fca11.jpg)
 
 ## **Alfiansyah Rambe - 312010338 - TI 20 B2**
-======================================SELESAI===============================================
-
+==================================SELESAI==================================
 
 
