@@ -1,8 +1,8 @@
 # lab3web
-## Disini saya akan menjelaskan langkah langkah Praktikum ke 3
+### Disini saya akan menjelaskan langkah langkah Praktikum ke 3
 ===================================================================
 
-## A. Membuat LIST di HTML
+# A. Membuat LIST di HTML
 ### 1. Ordered List
 Disini saya menggunakan text editor VS Code. lalu yang pertama kita harus lakukan adalah membuat file html dengan nama **lab3_list.html**. Setelah itu masukan code seperti dibawah ini :
 ```
@@ -52,8 +52,11 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
 ```
 ![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
 
-## Membuat Tabel dan menggabungkan Sel data di HTML
+# B. Membuat Tabel dan menggabungkan Sel data di HTML
 Disini saya akan menjelaskan cara membuat Tabel.
 ### 1. Pertama adalah cara memmbuat tabel di HTML
-ada beberapa tag yang digunakan khusus untuk membuat tabel, contohnya adalah tag `<table>`sebagai pembuka dan tag `</table>` sebagai penutup tag.
+ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya adalah element `<table></table>` yang berguna unutk mendefinisikan sebuah tabel dalam dokumen HTML.
+ada juga element `<th></th>` yang berguna membuat judul pada kolom atas
+ada element `<tr></tr>` untuk mendefinisikan baris dalam tabel
+ada element `<td></td>` untuk mendefinisikan kolom tabel
 
