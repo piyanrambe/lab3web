@@ -64,3 +64,48 @@ ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya :
 ada juga yang disebut Colspan dan Rowspan. 
 - colspan berguna untuk menggabungkan beberapa cell dalam satu baris
 - rowspan berguna untuk menggabungkan beberapa cell dalam satu kolom
+
+berikut adalah hasil dari membuat tabel beserta code nya :
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lanjutan</title>
+  </head>
+  <body>
+    <!-- Membuat table -->
+    <h1>Membuat Tabel</h1>
+    <table border="1" cellpadding="4" cellspacing="0">
+      <!-- table header -->
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Fakultas</th>
+          <th>Program Studi</th>
+        </tr>
+      </thead>
+      <!-- table body -->
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>Teknik</td>
+          <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>Teknik</td>
+          <td>Teknik Industri</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Teknik</td>
+          <td>Teknik Lingkungan</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+```
+![4 membuat tabel](https://user-images.githubusercontent.com/101393632/159869719-c661427c-cef7-4e49-9472-8c0d1b740aeb.jpg)
