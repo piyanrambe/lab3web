@@ -4,7 +4,8 @@
 
 # A. Membuat LIST di HTML
 ### 1. Ordered List
-Disini saya menggunakan text editor VS Code. lalu yang pertama kita harus lakukan adalah membuat file html dengan nama **lab3_list.html**. Setelah itu masukan code seperti dibawah ini :
+<p>Disini saya menggunakan text editor VS Code. lalu yang pertama kita harus lakukan adalah membuat file html dengan nama **lab3_list.html**.</p>
+Setelah itu masukan code seperti dibawah ini :
 ```
 <section id="order-list">
       <h2>Ordered List</h2>
