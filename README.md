@@ -1,5 +1,9 @@
 # lab3web
 ### Disini saya akan menjelaskan langkah langkah Praktikum ke 3
+### berikut adalah urutan langkah langkah yang akan saya jelaskan
+### 1. Membuat LIST pada HTML
+### 2. Membuat TABLE pada HTML
+### 3. Membuat FORM pada HTML
 ============================================================================================
 
 # A. Membuat LIST di HTML
@@ -144,6 +148,8 @@ dan dibawah ini adalah code untuk penggabungan Cell Data :
 </html>
 ```
 ![5 menggabungkan sel data](https://user-images.githubusercontent.com/101393632/159870992-c8138457-d2b7-4313-93aa-e43ff9b9d430.jpg)
+============================================================================================
 
+# C. Membuat Form 
 
 
