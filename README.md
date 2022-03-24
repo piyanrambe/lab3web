@@ -55,8 +55,9 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
 # B. Membuat Tabel dan menggabungkan Sel data di HTML
 Disini saya akan menjelaskan cara membuat Tabel.
 ### 1. Pertama adalah cara memmbuat tabel di HTML
-ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya adalah element `<table></table>` yang berguna unutk mendefinisikan sebuah tabel dalam dokumen HTML.
-ada juga element `<th></th>` yang berguna membuat judul pada kolom atas
-ada element `<tr></tr>` untuk mendefinisikan baris dalam tabel
-ada element `<td></td>` untuk mendefinisikan kolom tabel
+ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya :
+- element `<table></table>` yang berguna unutk mendefinisikan sebuah tabel dalam dokumen HTML.
+- element `<th></th>` yang berguna membuat judul pada kolom atas
+- element `<tr></tr>` untuk mendefinisikan baris dalam tabel
+- element `<td></td>` untuk mendefinisikan kolom tabel
 
