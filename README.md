@@ -52,7 +52,6 @@ Cara membuat **Description List**, ikuti saja kode dibawah ini :
 ```
 ![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
 ============================================================================================
-============================================================================================
 
 # B. Membuat Tabel dan menggabungkan Sel data di HTML
 Disini saya akan menjelaskan cara membuat Tabel.
@@ -62,10 +61,6 @@ ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya :
 - element `<th></th>` yang berguna membuat judul pada kolom atas
 - element `<tr></tr>` untuk mendefinisikan baris dalam tabel
 - element `<td></td>` untuk mendefinisikan kolom tabel
-
-ada juga yang disebut Colspan dan Rowspan. 
-- colspan berguna untuk menggabungkan beberapa cell dalam satu baris
-- rowspan berguna untuk menggabungkan beberapa cell dalam satu kolom
 
 berikut adalah hasil dari membuat tabel beserta code nya :
 ```
@@ -111,3 +106,13 @@ berikut adalah hasil dari membuat tabel beserta code nya :
     <br>
 ```
 ![4 membuat tabel](https://user-images.githubusercontent.com/101393632/159869719-c661427c-cef7-4e49-9472-8c0d1b740aeb.jpg)
+
+### 2. menggabungkan Cell data.
+ada dua atribut dalam element `<table>` yaitu : 
+- `colspan` berguna untuk menggabungkan beberapa cell dalam satu baris
+- `rowspan` berguna untuk menggabungkan beberapa cell dalam satu kolom
+Cara menggunakannya yaitu `<td rowspan="3">Teknik</td>`
+
+
+
+
