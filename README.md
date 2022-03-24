@@ -34,4 +34,26 @@ setelah membuat ordered list seperti di atas, kita lanjutkan dengan membuat Unor
 ![2 unordered List](https://user-images.githubusercontent.com/101393632/159864174-a12cb2f9-194c-48d9-b27e-f13889897410.jpg)
 
 ### 3. Description List
-Cara memuat **Description List**, ikuti saja kode dibawah ini :
+Cara membuat **Description List**, ikuti saja kode dibawah ini :
+```
+<section id="description-list">
+      <h2>Description List</h2>
+      <dl>
+        <dt>Fakultas Teknik</dt>
+        <dd>Teknik Industri</dd>
+        <dd>Teknik Informatika</dd>
+        <dd>Teknik Lingkungan</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+        <dd>Akuntansi</dd>
+        <dd>Manajemen</dd>
+        <dd>Bisnis Digital</dd>
+      </dl>
+    </section>
+```
+![3 menambah description list](https://user-images.githubusercontent.com/101393632/159865587-c2deb79f-4503-489b-a3a2-bf8920ffbc76.jpg)
+
+## Membuat Tabel dan menggabungkan Sel data di HTML
+Disini saya akan menjelaskan cara membuat Tabel.
+### 1. Pertama adalah cara memmbuat tabel di HTML
+ada beberapa tag yang digunakan khusus untuk membuat tabel, contohnya adalah tag `<table>`sebagai pembuka dan tag `</table>` sebagai penutup tag.
+
