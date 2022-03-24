@@ -61,3 +61,6 @@ ada beberapa element yang digunakan khusus untuk membuat tabel, contohnya :
 - element `<tr></tr>` untuk mendefinisikan baris dalam tabel
 - element `<td></td>` untuk mendefinisikan kolom tabel
 
+ada juga yang disebut Colspan dan Rowspan. 
+- colspan berguna untuk menggabungkan beberapa cell dalam satu baris
+- rowspan berguna untuk menggabungkan beberapa cell dalam satu kolom
