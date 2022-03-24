@@ -19,6 +19,18 @@ Disini saya menggunakan text editor VS Code. lalu yang pertama kita harus lakuka
 
 ### 2. Unordered List
 setelah membuat ordered list seperti di atas, kita lanjutkan dengan membuat Unordered list. tampilan code seperti dibawah ini :
+```
+<section id="unorder-list">
+      <h2>Unordered List</h2>
+      <ul type="square">
+        <li>Jaringan Komputer</li>
+        <li>Struktur Data</li>
+        <li>Algoritma &amp; Pemrograman</li>
+      </ul>
+    </section>
+
+```
 ![2 unordered List](https://user-images.githubusercontent.com/101393632/159864174-a12cb2f9-194c-48d9-b27e-f13889897410.jpg)
 
 ### 3. Description List
+Cara memuat **Description List**, ikuti saja kode dibawah ini :
