@@ -270,6 +270,10 @@ disini saya menggunakan element `<input type="Checkbox">`, berikut codenya :
           <input type="checkbox" name="Hobi" value="Musik"><label>Musik</label>
  </div>
 ```
+Berikut Hasilnya
+![8 menambah dropdown dan listbox](https://user-images.githubusercontent.com/101393632/159879748-51144fff-27d2-4790-be49-c0297d7fca11.jpg)
+
+## **Alfiansyah Rambe - 312010338 - TI 20 B2**
 ======================================SELESAI===============================================
 
 
